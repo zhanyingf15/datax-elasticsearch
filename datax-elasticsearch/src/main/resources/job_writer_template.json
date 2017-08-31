@@ -1,0 +1,14 @@
+{
+	"name": "elasticsearchwriter",
+	"parameter": {
+		"connection": [
+			"10.43.164.113:9300"
+		],
+		"index":"test2",
+		"type":"game",
+		"bulkNum":1000,
+		"refresh":false,
+		"idField":"_id",//使用指定字段值(不能有重复值)作为es的文档id，不设置或空时默认使用自增长id
+		"column": ["_id","contact_order_id","name"]
+	}
+}

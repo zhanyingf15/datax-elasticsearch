@@ -1,0 +1,12 @@
+{
+	"name": "elasticsearchreader",
+	"parameter": {
+		"connection": [
+			"10.43.164.113:9300"
+		],
+		"index":"test2",
+		"type":"game",
+		"pageSize":100,
+		"column": ["_id","contact_order_id"]//可以配置成["*"]表示取所有列
+	}
+}

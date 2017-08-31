@@ -1,0 +1,6 @@
+{
+  "name": "elasticsearchwriter",
+  "class": "com.tydic.datax.es.writer.ElasticsearchWriter",
+  "description": "writer data to elasticsearch.",
+  "developer": "wangjiajun"
+}
