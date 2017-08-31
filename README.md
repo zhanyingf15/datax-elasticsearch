@@ -4,7 +4,7 @@ DataX 是一个异构数据源离线同步工具，致力于实现包括关系�
 
 **插件安装**
 
-方式一：将下载的插件解压，elasticsearchreader拷贝到`${DATAX_HOME}\plugin\reader`目录，elasticsearchwriter拷贝到`${DATAX_HOME}\plugin\writer`目录。
+方式一：将下载的[release.zip](https://raw.githubusercontent.com/zhanyingf15/datax-elasticsearch/master/release.zip)插件解压，elasticsearchreader拷贝到`${DATAX_HOME}\plugin\reader`目录，elasticsearchwriter拷贝到`${DATAX_HOME}\plugin\writer`目录。
 
 方式二：clone源码，使用maven编译打包，将打包后的资源放到如下结构中。
 
@@ -48,7 +48,7 @@ elasticsearchreader任务配置如下
 		"index":"test2",
 		"type":"game",
 		"pageSize":100,
-		"column": ["_id","contact_order_id"]//可以配置成["*"]表示取所有列
+		"column": ["_id","contact_order_id"]
 	}
 }
 ```
